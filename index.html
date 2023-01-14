@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner" style="background-image: url('1.jpg'); max-width: 100%; ">
+
+          <h1 class="title">Stocks Watchlist</h1>
+          <p>Add Stocks to your Watchlist</p>
+          <form id="search-stocks">
+            <input type="text" placeholder="Search Stocks" id="display" />
+          </form>
+        </div>
+      </header>
+      <div id="stock-list">
+        <h2 class="title">My Watchlist</h2>
+        <ul>
+         <li>
+            <span class="name">Reliance</span>
+            <span class="delete">remove</span>
+          </li>
+        
+        </ul>
+      </div>
+      <form id="add-stock">
+        <input type="checkbox" id="hide" />
+        <label for="hide"> Hide the Watchlist</label>
+        <input type="text" placeholder="Add a Stock..." id="input"/>
+        <button>Add</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
